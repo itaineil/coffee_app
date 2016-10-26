@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/markiato" >
+
+    <Button
+        android:id="@+id/btnAboutMark"
+           android:layout_marginTop="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:typeface="serif"
+         />
+
+    <Button
+        android:id="@+id/btnViewMarkiatoPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Price"
+        android:layout_marginTop="33sp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnBuyMark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy"
+        android:layout_marginTop="33sp"
+        android:typeface="serif" />
+
+</LinearLayout>

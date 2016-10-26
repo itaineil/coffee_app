@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFCC"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:paddingTop="12sp"
+        android:textColorHint="#993000" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter you customer id"
+        android:paddingTop="25sp"
+        android:textColorHint="#993000" />
+
+    <EditText
+        android:id="@+id/edtCappuccino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter number of Cappuccino cups($1 per cup)"
+        android:paddingTop="25sp"
+        android:textColorHint="#993000" />
+
+    <EditText
+        android:id="@+id/edtEspresso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter number of Espresso cups($2 per cup)"
+        android:paddingTop="15sp"
+        android:textColorHint="#993000" />
+
+    <EditText
+        android:id="@+id/edtMacciato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter number of Macciato cups($3 per cup)"
+        android:textColorHint="#993000" />
+
+    <EditText
+        android:id="@+id/edtMoccaccino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter number of Macciato cups($3 per cup)"
+        android:textColorHint="#993000" />
+
+    <Button
+        android:id="@+id/btnViewOrder"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dp"
+        android:text="View Order"
+        android:textColor="#993000"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnConfirmOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="12sp"
+        android:text=" Send Order via Email"
+        android:textColor="#993000"
+        android:typeface="serif" />
+
+</LinearLayout>

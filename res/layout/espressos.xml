@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/espressog" >
+
+    <Button
+         android:layout_marginTop="15sp"
+        android:id="@+id/btnAboutEspresso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnViewEspressoPrice"
+        android:layout_width="match_parent"
+        android:layout_marginTop = "33sp"
+        android:layout_height="wrap_content"
+        android:text="ViewPrice"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnBuyEspresso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33sp"
+        android:text="Buy"
+        android:typeface="serif" />
+
+</LinearLayout>

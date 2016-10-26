@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvCoffeeName"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22sp"
+        android:gravity="center"
+        android:text="Cappuccino"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFFFF"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tvCoffeDetails"
+        android:typeface="serif"
+        android:textColor="#FFFFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="344dp"
+        android:layout_marginTop="80sp"
+        android:text="Cappuchino is a cool coffee and its usually made from the coolest ingredients and it makes so much sense to have it and then when we have cappuchino we always have the most fun and then its in the apple and orange"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         />
+
+</LinearLayout>
