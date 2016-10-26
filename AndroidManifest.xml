@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ordercoffee"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kofi"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Cappuccino"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ordercoffee.Cappuccino" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CappuccinoAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ordercoffee.CappuccinoAbout" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Mochaccino"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ordercoffee.Mochaccino" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutMocha"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ordercoffee.AboutMocha" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Espresso"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ordercoffee.Espresso" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EspressoAbout"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ordercoffee.Espresso" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Macchiato"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ordercoffee.Macchiato" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutMacchiato"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ordercoffee.AboutMacchiato" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PriceList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ordercoffee.PriceList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OrderMultipleItems"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ordercoffee.OrderMultipleItems" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ordercoffee.About" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StoreOrders"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ordercoffee.StoreOrders" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
