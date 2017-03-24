@@ -18,6 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="22sp"
+        android:background="@drawable/background_round_corner_edittext"
         android:ems="10"
         android:hint="Enter your Customer Id"
         android:textColorHint="#993000" >
@@ -29,6 +30,8 @@
         android:id="@+id/edtName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/background_round_corner_edittext"
         android:ems="10"
         android:hint="Enter your name"
         android:textColorHint="#993000" />
@@ -37,6 +40,8 @@
         android:id="@+id/edtFavouriteCoffee"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/background_round_corner_edittext"
         android:ems="10"
         android:hint="Enter the coffee to order"
         android:textColorHint="#993000" />
@@ -46,18 +51,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="22sp"
+        android:background="@drawable/background_round_corner_button"
         android:text="Add Product" />
 
     <Button
         android:id="@+id/btnViewAll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/background_round_corner_button"
         android:text="View All Stored Products" />
 
     <Button
         android:id="@+id/btnViewSpecificOrder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/background_round_corner_button"
         android:text="View Specific Order" />
 
 </LinearLayout>

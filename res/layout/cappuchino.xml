@@ -10,14 +10,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15sp"
+        android:background="@drawable/otherbuttons"
         android:text="About"
-         android:typeface="serif" />
+        android:typeface="serif" />
 
     <Button
         android:id="@+id/btnViewPriceCappuccino"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="33sp"
+        android:background="@drawable/otherbuttons"
         android:text="View Price"
         android:typeface="serif" />
 
@@ -26,7 +28,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="33sp"
-        android:text="Buy"
+        android:background="@drawable/otherbuttons"
+        android:text="Send order via email"
         android:typeface="serif" />
 
+    <Button
+        android:id="@+id/btnCallAndOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33sp"
+        android:background="@drawable/otherbuttons"
+        android:text="Call and Order"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnSendViaSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33sp"
+        android:background="@drawable/otherbuttons"
+        android:text="Send order via SMS"
+        android:typeface="serif" />
+    
 </LinearLayout>

@@ -2,32 +2,53 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/markiato" >
+    android:background="@drawable/markiato"
+    android:orientation="vertical" >
 
     <Button
         android:id="@+id/btnAboutMark"
-           android:layout_marginTop="15sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/otherbuttons"
         android:text="About"
-        android:typeface="serif"
-         />
+        android:typeface="serif" />
 
     <Button
         android:id="@+id/btnViewMarkiatoPrice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="View Price"
         android:layout_marginTop="33sp"
+        android:background="@drawable/otherbuttons"
+        android:text="View Price"
         android:typeface="serif" />
 
     <Button
         android:id="@+id/btnBuyMark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Buy"
         android:layout_marginTop="33sp"
+        android:background="@drawable/otherbuttons"
+        android:text="Order Via Email"
         android:typeface="serif" />
 
+     <Button
+        android:id="@+id/btnCallAndOrderMarki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33sp"
+        android:background="@drawable/otherbuttons"
+        android:text="Call and Order"
+        android:typeface="serif" />
+     
+       <Button
+        android:id="@+id/btnSendViaSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33sp"
+        android:background="@drawable/otherbuttons"
+        android:text="Send order via SMS"
+        android:typeface="serif" />
+    
+    
 </LinearLayout>

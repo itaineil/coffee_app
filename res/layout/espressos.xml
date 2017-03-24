@@ -2,22 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/espressog" >
+    android:background="@drawable/espressog"
+    android:orientation="vertical" >
 
     <Button
-         android:layout_marginTop="15sp"
         android:id="@+id/btnAboutEspresso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/otherbuttons"
         android:text="About"
         android:typeface="serif" />
 
     <Button
         android:id="@+id/btnViewEspressoPrice"
         android:layout_width="match_parent"
-        android:layout_marginTop = "33sp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="33sp"
+        android:background="@drawable/otherbuttons"
         android:text="ViewPrice"
         android:typeface="serif" />
 
@@ -26,7 +28,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="33sp"
-        android:text="Buy"
+        android:background="@drawable/otherbuttons"
+        android:text="Order Via Email"
         android:typeface="serif" />
+    
+     <Button
+        android:id="@+id/btnCallAndOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33sp"
+        android:background="@drawable/otherbuttons"
+        android:text="Call and Order"
+        android:typeface="serif" />
+     
+       <Button
+        android:id="@+id/btnSendViaSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33sp"
+        android:background="@drawable/otherbuttons"
+        android:text="Send order via SMS"
+        android:typeface="serif" />
+    
 
 </LinearLayout>

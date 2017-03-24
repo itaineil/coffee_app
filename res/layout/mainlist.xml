@@ -13,6 +13,7 @@
         android:layout_alignParentTop="true"
         android:gravity="center"
         android:text="Select item to order"
+        android:typeface="serif"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textSize="18sp"
         android:textStyle="italic" />
@@ -23,6 +24,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:background="@drawable/listview"
+       
          >
 
     </ListView>
