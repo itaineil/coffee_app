@@ -1,4 +1,1 @@
-# basic application for coffee that orderes coffee online and consists of various ordering methods 
-sms
-calling and then placing your order
-sending your order via email
+#This was my Final Treehouse Android project which uses various methods to order coffee online
